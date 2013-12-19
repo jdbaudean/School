@@ -1,0 +1,6 @@
+How do you implement a method defined in the listener interface?
+To implement a method defined in the listener interface, you need to create a listener object that is an instance of the listener
+interface that you want to implement.  The listener object must also be registered by the source object. 
+
+Do you need to implement all the methods defined in the listener interface?
+yes, you need to implement all of the methods defined in the listener interface.

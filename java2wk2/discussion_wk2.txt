@@ -1,0 +1,17 @@
+1) Is fruit instanceof Fruit? Yes
+2) Is fruit instanceof Orange? No
+3) Is fruit instanceof Apple? Yes
+4) Is fruit instanceof GoldenDelicious? Yes
+5) Is fruit instanceof Macintosh? No
+6) Is orange instanceof Orange? Yes
+7) Is orange instanceof Fruit? Yes
+8) Is orange instanceof Apple? No
+9) Suppose the method makeAppleCider is defined in the Apple class.
+    Can fruit invoke this method? Yes
+    Can orange invoke this method? No
+10) Suppose the method makeOrangeJice is defined in the Orange class.
+    Can orange invoke this method? Yes
+    Can fruit invoke this method? No
+11) Is the statement Orange p = new Apple() legal?  No
+12) Is the statement Macintosh p = new Apple() legal? No
+13) Is the statement Apple p = new Macintosh() legal?  Yes 

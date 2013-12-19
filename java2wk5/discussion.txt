@@ -1,0 +1,8 @@
+To create a button labeled OK you would need to create a new JButton object with the first parameter being the text "OK" in quotes.
+
+To change the text on a button you would just change the text in the first parameter from "OK" to whatever you wanted it to say.
+
+To set an icon you first need to create an ImageIcon object, the relative or absolute path being the first parameter.  The default icon should be
+specified in the second parameter when you initially create the JButton object.  You will need to create an ImageIcon object for 
+each different icon that you plan to use.  To change the icon on rollover, you would need to use the setRolloverIcon method for the JButton object.
+To change the icon when pressed you would need to use the setPressedIcon method for the JButton object.
